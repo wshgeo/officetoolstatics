@@ -1,0 +1,88 @@
+.box {
+    /* width: 600px; */
+}
+.loginState{
+    text-align: right;
+    padding: 0px 20px 10px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.userInfo, .loginOut{
+    float:right;
+}
+.file-input-output{
+    width: 100%;
+    display: inline-flex;
+}
+.fileInput{
+    width: 40%;
+    margin: 0px 10px;
+}
+.fileOutput{
+    width: 40%;
+}
+
+.top,
+.main {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px
+}
+.table {
+    width:100%;
+    text-align: center;
+}
+td{
+    padding: 0px;
+}
+.row_operation_container{
+    width: 45px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.row_operation{
+    display: none;
+}
+.column1_header{
+    width: 101px;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+.row_header{
+    width:10px;
+    float: left;
+}
+.fullContent_add_row, .photo_sheet_add_row{
+    margin-right: 6px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.fullContent_delete_row, .photo_sheet_delete_row{
+    cursor: pointer;
+}
+.border-right-gray{
+    border-right: 1px solid #efefef;
+}
+/* .taskTable thead tr {
+    height:30px;
+    width:100%;
+}
+.taskTable th{
+    background: #1eb0eb;
+    color:#fff;
+    border: 1px solid #fff;
+} */
+/* td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+} */
